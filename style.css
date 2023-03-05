@@ -43,3 +43,24 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
+
+.fade {
+  background-color: #db1f48;
+  color: #fff;
+  transition: background-color 1s;
+  margin: auto;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.fade:hover {
+  background-color: var(--main-color);
+}
+
+.fade:focus,
+.fade:active {
+  background-color: black;
+  transition: none;
+}
